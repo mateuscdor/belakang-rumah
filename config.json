@@ -1,0 +1,13 @@
+{
+  "ownerNumber": ["62882007849954@s.whatsapp.net"],
+  "ownerName": ["Fendy"],
+  "botName": "OX-BETA",
+  "sessionName": "qrcode-terminal",
+  "pathimg": "./media/thumb.jpeg",
+  "gamewaktu": 30,
+  "limitCount": 999999,
+  "gcount": {
+	"prem": 999999,
+	"user": 999999
+  }
+}
