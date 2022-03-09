@@ -52,8 +52,8 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
    ${prefix}ytmp3
    ${prefix}ig
    ${prefix}fb
-   ${prefix}getv
-   ${prefix}getm
+   ${prefix}getvideo
+   ${prefix}getmusic
   
   *Random*
    ${prefix}quote
@@ -64,6 +64,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
    ${prefix}lirik
    ${prefix}grupwa
    ${prefix}ytsearch
+   ${prefix}pinterest
   
   *Game*
    ${prefix}tictactoe
@@ -78,5 +79,23 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
    ${prefix}group
    ${prefix}revoke
    ${prefix}hidetag
+
+  *Owner Tools*
+  > evalcode
+  x evalcode-2
+  $ executor
+   ${prefix}setppbot
+   ${prefix}exif
+   ${prefix}leave
+   ${prefix}addprem
+   ${prefix}delprem
+
+  *Other*
+   ${prefix}buylimit
+   ${prefix}buyglimit
+   ${prefix}transfer
+   ${prefix}limit
+   ${prefix}balance
+
 `
 }
